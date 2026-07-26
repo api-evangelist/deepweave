@@ -1,4 +1,16 @@
 aid: deepweave
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deepweave.png
 name: DeepWeave
 description: 'DeepWeave is a company surfaced as a portfolio company of homebrew and added to the API
   Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
@@ -12,10 +24,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Startup
+- Homebrew Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +38,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/deepweave-domain-security.yml
 - type: Website
   url: https://www.deepweave.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
