@@ -39,13 +39,11 @@ modified: '2026-07-18'
 tags:
 - Company
 - Artificial Intelligence
-- Startups
 - Homebrew Portfolio
 tags_raw:
 - Company
 - Ai
 - Artificial Intelligence
-- Startup
 - Homebrew Portfolio
 apis: []
 maintainers:
@@ -63,3 +61,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, Homebrew Portfolio"
